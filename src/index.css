@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.parent {
+  position: relative;
+  height: auto;
+  width: 1920px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.parent div {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+}
+
+.modal {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_bar {
+  height: 300px;
+  width: 500px;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_bar p {
+  text-transform: capitalize;
+  font-size: 26px;
+}
+
+.modal_bar button {
+  height: 60px;
+  width: 150px;
+  background-color: red;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 25px;
+
+}
+
+.show {
+  height: 100px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  margin-top: 250px;
+  margin-left: 100px;
+}
